@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="x8Rp8C" name="WavetableSynthesis" projectType="guiapp" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" displaySplashScreen="1">
   <MAINGROUP id="nDB6MR" name="WavetableSynthesis">
     <GROUP id="{4BFDB699-AADA-FEC4-4DAE-DFC1B61CECA5}" name="Source">
       <FILE id="oXYsY3" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>

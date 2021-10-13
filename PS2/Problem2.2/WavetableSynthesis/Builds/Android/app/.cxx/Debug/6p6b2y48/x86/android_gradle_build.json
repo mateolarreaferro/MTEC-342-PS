@@ -1,0 +1,68 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Applications/JUCE/modules/juce_audio_devices/native/oboe/CMakeLists.txt",
+    "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/PS2/Problem2.2/WavetableSynthesis/Builds/Android/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/mlf/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/PS2/Problem2.2/WavetableSynthesis/Builds/Android/app/.cxx/Debug/6p6b2y48/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/mlf/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/PS2/Problem2.2/WavetableSynthesis/Builds/Android/app/.cxx/Debug/6p6b2y48/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "oboe-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/mlf/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/PS2/Problem2.2/WavetableSynthesis/Builds/Android/app/.cxx/Debug/6p6b2y48/x86",
+        "oboe"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "oboe",
+      "output": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/PS2/Problem2.2/WavetableSynthesis/Builds/Android/app/.cxx/Debug/6p6b2y48/x86/oboe/liboboe.a"
+    },
+    "cpufeatures-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/mlf/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/PS2/Problem2.2/WavetableSynthesis/Builds/Android/app/.cxx/Debug/6p6b2y48/x86",
+        "cpufeatures"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "cpufeatures",
+      "output": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/PS2/Problem2.2/WavetableSynthesis/Builds/Android/app/.cxx/Debug/6p6b2y48/x86/libcpufeatures.a"
+    },
+    "juce_jni-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/mlf/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/PS2/Problem2.2/WavetableSynthesis/Builds/Android/app/.cxx/Debug/6p6b2y48/x86",
+        "juce_jni"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "juce_jni",
+      "output": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/PS2/Problem2.2/WavetableSynthesis/Builds/Android/app/build/intermediates/cxx/Debug/6p6b2y48/obj/x86/libjuce_jni.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "mm",
+    "cpp"
+  ]
+}
