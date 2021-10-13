@@ -6,18 +6,17 @@
 
 For this Problem Set I created two programs: Problem1.1.cpp & Problem1.2
 
-**Problem 1.1** consisted in writing a program that would take an integer from the user using std::cin and then transform it to a hexadecimal and octal number.
-
-**Problem 1.2** consisted in adding two sliders in Juce to control the font size and color of a text. I replaced the string "Hello JUCE" with a ":)!" to make it a little bit more personal. 
+**Problem 1.1** consisted in writing three functions to get the min, max, and average of an array.
+**Problem 1.2** consisted in creating sliders in juce to control parameters like the frequency, amplitude, buffer size, etc. of an osc.
 
 
 ### Build and Run Commands:
-To build Problem1.1:
+To build Problem2.1:
 
 	 clang++ Problem1.1.cpp -o Problem1.1
 	 
 
-To run the compiled Problem1.1 use: 
+To run the compiled Problem2.1 use: 
 
 	 ./Problem1.1
 	
