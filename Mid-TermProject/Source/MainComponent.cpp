@@ -84,12 +84,34 @@ void MainComponent::prepareToPlay (int samplesPerBlockExpected, double sampleRat
     spec.numChannels = 2;
     processorChain.prepare (spec);
     
+    
+    //Set OSC
     auto& osc = processorChain.template get<oscIndex>();
     osc.initialise ([] (float x)
                     {
                         return std::sin (x);
                     }, 128);
     processorChain.get<oscIndex>().setFrequency (440, true);
+    
+    
+    
+    //Set LFO
+    tlfo.prepare(spec);
+    //Sets LFO: tremolo
+    tlfo.initialise ([] (float x) {return std::sin(x); }, 128);
+    tlfo.setFrequency(2.0f);
+    tlfo.prepare({spec.sampleRate / lfoUpdateRate, spec.maximumBlockSize, spec.numChannels});
+    
+    //Sets LFO: vibrato
+    vlfo.initialise ([] (float x) {return std::sin(x); }, 128);
+    vlfo.setFrequency(2.0f);
+    vlfo.prepare({spec.sampleRate / lfoUpdateRate, spec.maximumBlockSize, spec.numChannels});
+    
+    
+    // Initialize temp buffer --> to apply LFO Signal
+    tempBlock = juce::dsp::AudioBlock<float>(heapBlock, spec.numChannels, spec.maximumBlockSize);
+    
+    
     
     auto& shaper = processorChain.get<shaperIndex>();
     shaper.functionToUse = [] (float x)
@@ -170,7 +192,45 @@ void MainComponent::getNextAudioBlock (const juce::AudioSourceChannelInfo& buffe
     oscilloscope.pushBuffer (*(bufferToFill.buffer));
     
     
+    //LFO
+    auto numSamples = bufferToFill.numSamples;
+        auto output = tempBlock.getSubBlock(0, numSamples);
+        output.clear();
+        
+        for(long pos = 0; pos < numSamples; ){
+            //kEEP TRACK OF THE SUB BLOCK SIZE
+            auto max = juce::jmin(numSamples - pos, lfoUpdateCounter);
+            auto block = output.getSubBlock(pos, max);
+            
+            // process samples
+            juce::dsp::ProcessContextReplacing<float> context (block);
+            processorChain.process (context);
+            
+            // upadate sample position and lfo counter
+            pos += max;
+            lfoUpdateCounter -= max;
+            
+            //Controls LFOs
+            if (lfoUpdateCounter <= 0){//apply lfos when the counter is 0 or less
+                lfoUpdateCounter = lfoUpdateRate;
+                
+                //Set LFO Parameters
+                tlfo.setFrequency(panels[Parameters::lfoIndex]->getNextValue(Parameters::Tremolo));
+                vlfo.setFrequency(panels[Parameters::lfoIndex]->getNextValue(Parameters::Vibrato));
+                
+                auto gain = juce::jmap(tlfo.processSample(0.0f), -1.0f, 1.0f, 0.1f, 1.0f);
+                
+//                auto freq = juce::jmap(vlfo.processSample(0.0f), 0.0f, 10.0f, 0.1f, 1.0f );
+        
+                processorChain.get<gainIndex>().setGainLinear(gain);
+//                processorChain.get<oscIndex>().setFrequency(freq);
+                
+            }
     
+    
+}
+    // Apply processor chain to the main i/o buffer
+//        juce::dsp::AudioBlock<float>(*bufferToFill.buffer).getSubBlock(bufferToFill.startSample, numSamples).add(tempBlock);
 }
 
 void MainComponent::releaseResources()

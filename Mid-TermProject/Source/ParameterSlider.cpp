@@ -1,13 +1,3 @@
-/*
-  ==============================================================================
-
-    ParameterSlider.cpp
-    Created: 11 Aug 2021 8:25:27pm
-    Author:  Akito van Troyer
-
-  ==============================================================================
-*/
-
 #include "ParameterSlider.h"
 
 void ParameterSlider::paint (juce::Graphics& g)
