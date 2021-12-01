@@ -163,7 +163,7 @@ void MainComponent::getNextAudioBlock (const juce::AudioSourceChannelInfo& buffe
     processorChain.get<filterIndex>().setResonance (panels[Parameters::lpfIndex]->getNextValue (Parameters::resonanceIndex));
     processorChain.get<filterIndex>().setCutoffFrequencyHz (panels[Parameters::lpfIndex]->getNextValue (Parameters::cutoffIndex));
     
-    // Set reverb parameters
+    // Set reverb parameters (probably the last one)
     auto revParam = reverb.getParameters();
     revParam.roomSize = panels[Parameters::reverbIndex]->getNextValue (Parameters::roomSizeIndex);
     revParam.wetLevel = panels[Parameters::reverbIndex]->getNextValue (Parameters::mixIndex);
@@ -172,7 +172,7 @@ void MainComponent::getNextAudioBlock (const juce::AudioSourceChannelInfo& buffe
     revParam.damping = panels[Parameters::reverbIndex]->getNextValue (Parameters::dampIndex);
     reverb.setParameters (revParam);
     
-    // Set adsr parameters
+    // Set adsr parameters --> after the lfo (might help)
     auto adsrParam = adsr.getParameters();
     adsrParam.attack = panels[Parameters::adsrIndex]->getNextValue (Parameters::attackIndex);
     adsrParam.decay = panels[Parameters::adsrIndex]->getNextValue (Parameters::decayIndex);
@@ -189,7 +189,7 @@ void MainComponent::getNextAudioBlock (const juce::AudioSourceChannelInfo& buffe
     reverb.process (context);
     
     //Oscilloscope
-    oscilloscope.pushBuffer (*(bufferToFill.buffer));
+    oscilloscope.pushBuffer (*(bufferToFill.buffer)); //put it at the end
     
     
     //LFO
