@@ -3,7 +3,6 @@
 #include <JuceHeader.h>
 #include "Pad.h"
 
-
 //==============================================================================
 /*
     This component lives inside our window, and this is where you should put all
@@ -27,12 +26,12 @@ public:
 
 private:
     //==============================================================================
-    // Your private member variables go here...
-    
     void createPads();
     juce::OwnedArray<Pad> pads;
     
-
+    
+    // Slider
+    juce::Slider volume;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };

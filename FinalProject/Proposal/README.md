@@ -2,7 +2,7 @@
 
 ## What will (likely) be the title of your project?
 
-Sweet Touch
+SweetTouch
 
 ## In just a sentence or two, summarize your project. (E.g., "My project is about creating a wavetable synthesizer.")
 
@@ -10,7 +10,11 @@ My project is about creating an intuitive OSC controller/sender that uses MultiT
 
 ## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
 
-Sweet Touch is an intuitive mobile application inspired in Touch OSC but with a strong focus on the interface. The application sends OSC messages to a desired destination through a colorful multitouch mechanic. The goal is to use this piece of technology to control visuals created in Jitter (Max MSP) for live performances. 
+Sweet Touch is an intuitive and versatile mobile application inspired by Touch OSC but with a stronger focus on the interface. The application will enable performers to control music and visuals by moving their fingers in a somewhat 'empty' screen. By adding haptic response, Sweet Touch will emulate (to some extent) the action of playing an instrument
+
+
+
+SweetTouch is an intuitive and versaitle mobile OSC instrument that enables a friendly 
 
 
 ## If you are planning to combine EP-353's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to EP-353, and which aspect(s) would relate to the other course?

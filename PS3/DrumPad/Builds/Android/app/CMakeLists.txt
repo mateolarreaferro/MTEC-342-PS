@@ -34,8 +34,8 @@ add_library( ${BINARY_NAME}
 
     SHARED
 
-    "../../../Source/Pad.h"
     "../../../Source/Pad.cpp"
+    "../../../Source/Pad.h"
     "../../../Source/Main.cpp"
     "../../../Source/MainComponent.h"
     "../../../Source/MainComponent.cpp"

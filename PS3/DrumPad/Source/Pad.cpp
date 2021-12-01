@@ -54,6 +54,12 @@ void Pad::loadAudioFile(juce::String fileName){
         // Copy the file into the Buffer ***********
         // buffer, where to start in the destination buffer, number of samples, reader start sample, use reader left chan, use reader right chan
         reader->read(&fileBuffer, 0, (int) reader->lengthInSamples, 0, true, true);
+        
+        
+        // idea:
+//        for (position, position > reader->lengthInSamples; position += reader->lengthInSamples / 16){
+//        reader->read(&fileBuffer, 0, (int) reader->lengthInSamples, 0, true, true);
+//        }
     }
 }
 
@@ -123,5 +129,6 @@ void Pad::getNextAudioBlock(const juce::AudioSourceChannelInfo &bufferToFill) {
 void Pad::releaseResources() {
     fileBuffer.setSize(0, 0);
 }
+
 
 
