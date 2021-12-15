@@ -2,7 +2,9 @@
 #include "Finger.h"
 
 int MainComponent::MAX_FINGERS = 10;
-std::string oscAdressX[] = {"/juce/finger1X", "/juce/finger2X", "/juce/finger3X", "/juce/finger4X", "/juce/finger5X"};
+
+// This array is not being used...
+//std::string oscAdressX[] = {"/juce/finger1X", "/juce/finger2X", "/juce/finger3X", "/juce/finger4X", "/juce/finger5X"};
 
 
 
@@ -44,7 +46,7 @@ MainComponent::~MainComponent()
 //==============================================================================
 void MainComponent::prepareToPlay (int samplesPerBlockExpected, double sampleRate)
 {
-     //specify osc info
+     //specify osc info: IP and Port
        if (! sender.connect("10.0.0.182", 8000))
            showConnectionErrorMessage ("Error: could not connecto to port 8000");
    
@@ -127,6 +129,7 @@ void MainComponent::mouseDown (const juce::MouseEvent &event)
     }
 }
 
+// OSC Sender is implemented here
 void MainComponent::mouseDrag (const juce::MouseEvent& event)
 {
     if (fingers[event.source.getIndex()]->getIsTouching())

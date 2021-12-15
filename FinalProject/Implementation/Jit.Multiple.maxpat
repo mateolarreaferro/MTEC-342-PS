@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 797.0, 159.0, 609.0, 480.0 ],
+		"rect" : [ 797.0, 159.0, 245.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2337.0, 42.0, 41.0, 22.0 ],
+					"patching_rect" : [ 2272.0, 302.0, 41.0, 22.0 ],
 					"text" : "r osc2"
 				}
 
@@ -102,8 +102,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 331.0, 1133.0, 105.0, 22.0 ],
-					"text" : "zmap 0 700 0. 10."
+					"patching_rect" : [ 331.0, 1133.0, 102.0, 22.0 ],
+					"text" : "zmap 0 700 -5. 5."
 				}
 
 			}
@@ -115,7 +115,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 86.0, 1134.0, 50.0, 22.0 ],
-					"text" : "201.5"
+					"text" : "200."
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 86.0, 1224.0, 50.0, 22.0 ],
-					"text" : "979."
+					"text" : "129.5"
 				}
 
 			}
@@ -1447,7 +1447,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1273.999997615814209, 630.666685461997986, 101.0, 22.0 ],
+					"patching_rect" : [ 1315.999997615814209, 629.000001430511475, 101.0, 22.0 ],
 					"text" : "jit.fill my_shape 2"
 				}
 
@@ -1471,7 +1471,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1273.999997615814209, 401.333345293998718, 101.0, 22.0 ],
+					"patching_rect" : [ 1233.999997615814209, 401.333345293998718, 101.0, 22.0 ],
 					"text" : "jit.fill my_shape 1"
 				}
 
@@ -1509,7 +1509,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1273.999997615814209, 470.533339500427246, 262.0, 114.0 ],
-					"size" : 100
+					"size" : 121
 				}
 
 			}
@@ -1522,7 +1522,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1273.999997615814209, 259.533339500427246, 262.0, 114.0 ],
-					"size" : 100
+					"size" : 121
 				}
 
 			}
@@ -1535,7 +1535,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1273.999997615814209, 48.533339500427246, 262.0, 114.0 ],
-					"size" : 100
+					"size" : 121
 				}
 
 			}
@@ -1648,12 +1648,12 @@
 					"patching_rect" : [ 774.233329772949219, 685.000001430511475, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "live.dial",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_mmin" : -1.0,
-							"parameter_longname" : "live.dial",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "live.dial"
+							"parameter_longname" : "live.dial"
 						}
 
 					}
@@ -1803,7 +1803,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 589.333333909511566, 402.600016713142395, 50.0, 22.0 ]
+					"patching_rect" : [ 589.333333909511566, 403.400016725063324, 50.0, 22.0 ]
 				}
 
 			}
@@ -2490,7 +2490,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-97", 0 ],
+					"destination" : [ "obj-90", 0 ],
 					"source" : [ "obj-146", 0 ]
 				}
 
@@ -2847,7 +2847,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"order" : 0,
+					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
+					"order" : 1,
 					"source" : [ "obj-69", 0 ]
 				}
 
@@ -2868,8 +2877,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"source" : [ "obj-73", 0 ]
 				}
 
 			}

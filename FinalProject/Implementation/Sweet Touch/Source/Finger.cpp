@@ -38,8 +38,8 @@ void Finger::prepareToPlay (int samplesPerBlockExpected, double sampleRate, int 
 
 void Finger::getNextAudioBlock (const juce::AudioSourceChannelInfo& bufferToFill)
 {
-    synth.setFrequency (5.0f + (currentPosition.getY() / bound.getHeight()) * 80.0f);
-    synth.setCutoffFrequency (100.0f + (currentPosition.getX() / bound.getWidth()) * 600.0f);
+    synth.setFrequency (5.0f + (currentPosition.getY() / bound.getHeight()) * 60.0f);
+    synth.setCutoffFrequency (100.0f + (currentPosition.getX() / bound.getWidth()) * 100.0f);
     synth.getNextAudioBlock (bufferToFill);
     
     

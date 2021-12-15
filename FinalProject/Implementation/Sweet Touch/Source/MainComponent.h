@@ -24,9 +24,9 @@ public:
     void paint (juce::Graphics& g) override;
     void resized() override;
     
-    void mouseDown (const juce::MouseEvent &event) override;
-    void mouseDrag (const juce::MouseEvent& event) override;
-    void mouseUp (const juce::MouseEvent &event) override;
+    void mouseDown (const juce::MouseEvent &event) override; //Starts
+    void mouseDrag (const juce::MouseEvent& event) override; //Updates
+    void mouseUp (const juce::MouseEvent &event) override; //Ends
     
 private:
     //==============================================================================
@@ -35,8 +35,10 @@ private:
     static int MAX_FINGERS;
     juce::dsp::Reverb reverb;
     
+    
+    // Create OSC sender
     juce::OSCSender sender;
-    float fingerOsc [10];
+
     
     
     
