@@ -1,0 +1,188 @@
+{
+  "abi": "ARMEABI_V7A",
+  "info": {
+    "abi": "ARMEABI_V7A",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx/Debug/34k386oz/armeabi-v7a",
+  "soFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cxx/Debug/34k386oz/obj/armeabi-v7a",
+  "soRepublishFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cmake/debug_Debug/obj/armeabi-v7a",
+  "abiPlatformVersion": 16,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_TOOLCHAIN\u003dclang",
+      "-DANDROID_PLATFORM\u003dandroid-16",
+      "-DANDROID_STL\u003dc++_static",
+      "-DANDROID_CPP_FEATURES\u003dexceptions rtti",
+      "-DANDROID_ARM_MODE\u003darm",
+      "-DANDROID_ARM_NEON\u003dTRUE",
+      "-DCMAKE_CXX_STANDARD\u003d14",
+      "-DCMAKE_CXX_EXTENSIONS\u003dOFF",
+      "-DJUCE_BUILD_CONFIGURATION\u003dDEBUG",
+      "-DCMAKE_CXX_FLAGS_DEBUG\u003d-O0",
+      "-DCMAKE_C_FLAGS_DEBUG\u003d-O0"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug_Debug",
+    "soFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cxx/Debug/34k386oz/obj",
+    "soRepublishFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cmake/debug_Debug/obj",
+    "cxxBuildFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx/Debug/34k386oz",
+    "intermediatesFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cxx/Debug/34k386oz",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx",
+      "intermediatesBaseFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates",
+      "intermediatesFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cxx",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app",
+      "moduleBuildFile": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build.gradle",
+      "makeFile": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "/Users/mlf/Library/Android/sdk/ndk/21.4.7075529",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "/Users/mlf/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "/Users/mlf/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "/Users/mlf/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android",
+        "sdkFolder": "/Users/mlf/Library/Android/sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "nativeBuildOutputLevel": "QUIET"
+    },
+    "prefabClassPathFileCollection": [],
+    "prefabPackageDirectoryListFileCollection": [],
+    "stlType": "c++_static",
+    "optimizationTag": "Debug"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx/Debug/34k386oz/prefab/armeabi-v7a",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "34k386oz256x5w23z4c1719595e2v3i5n62622u723k2el412w82o3ey1q",
+  "configurationArguments": [
+    "-H/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DANDROID_NDK\u003d/Users/mlf/Library/Android/sdk/ndk/21.4.7075529",
+    "-DCMAKE_ANDROID_NDK\u003d/Users/mlf/Library/Android/sdk/ndk/21.4.7075529",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/mlf/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003d/Users/mlf/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cxx/Debug/34k386oz/obj/armeabi-v7a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cxx/Debug/34k386oz/obj/armeabi-v7a",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-B/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx/Debug/34k386oz/armeabi-v7a",
+    "-GNinja",
+    "-DANDROID_TOOLCHAIN\u003dclang",
+    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DANDROID_STL\u003dc++_static",
+    "-DANDROID_CPP_FEATURES\u003dexceptions rtti",
+    "-DANDROID_ARM_MODE\u003darm",
+    "-DANDROID_ARM_NEON\u003dTRUE",
+    "-DCMAKE_CXX_STANDARD\u003d14",
+    "-DCMAKE_CXX_EXTENSIONS\u003dOFF",
+    "-DJUCE_BUILD_CONFIGURATION\u003dDEBUG",
+    "-DCMAKE_CXX_FLAGS_DEBUG\u003d-O0",
+    "-DCMAKE_C_FLAGS_DEBUG\u003d-O0"
+  ]
+}

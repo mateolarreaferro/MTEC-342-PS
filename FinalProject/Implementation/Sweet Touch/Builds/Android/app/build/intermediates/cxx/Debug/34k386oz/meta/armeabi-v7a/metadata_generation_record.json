@@ -1,0 +1,870 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 16 min SDK version: armeabi-v7a",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1478649138
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx/Debug/34k386oz/armeabi-v7a/android_gradle_build.json due to:",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 271994603
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json /Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx/Debug/34k386oz/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 521268981
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file /Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx/Debug/34k386oz/armeabi-v7a/metadata_generation_command.txt, will remove stale json folder",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1630648563
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2021988508
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx/Debug/34k386oz/armeabi-v7a\u0027",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -957290942
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx/Debug/34k386oz/armeabi-v7a\u0027",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1627771210
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : /Users/mlf/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DANDROID_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/Users/mlf/Library/Android/sdk/ndk/21.4.7075529\n-DCMAKE_ANDROID_NDK\u003d/Users/mlf/Library/Android/sdk/ndk/21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/mlf/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/Users/mlf/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cxx/Debug/34k386oz/obj/armeabi-v7a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cxx/Debug/34k386oz/obj/armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx/Debug/34k386oz/armeabi-v7a\n-GNinja\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_PLATFORM\u003dandroid-16\n-DANDROID_STL\u003dc++_static\n-DANDROID_CPP_FEATURES\u003dexceptions rtti\n-DANDROID_ARM_MODE\u003darm\n-DANDROID_ARM_NEON\u003dTRUE\n-DCMAKE_CXX_STANDARD\u003d14\n-DCMAKE_CXX_EXTENSIONS\u003dOFF\n-DJUCE_BUILD_CONFIGURATION\u003dDEBUG\n-DCMAKE_CXX_FLAGS_DEBUG\u003d-O0\n-DCMAKE_C_FLAGS_DEBUG\u003d-O0\njvmArgs : \n\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1142919543
+  },
+  {
+    "level_": 0,
+    "message_": "\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -220656038
+  },
+  {
+    "level_": 0,
+    "message_": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1397771980
+  },
+  {
+    "level_": 0,
+    "message_": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2113156589
+  },
+  {
+    "level_": 0,
+    "message_": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1291027188
+  },
+  {
+    "level_": 0,
+    "message_": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app\",\n  \"buildDirectory\": \"/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/.cxx/Debug/34k386oz/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -370269261
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -995696779
+  },
+  {
+    "level_": 0,
+    "message_": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d16\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003d/Users/mlf/Library/Android/sdk/ndk/21.4.7075529\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/mlf/Library/Android/sdk/ndk/21.4.7075529\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/mlf/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/mlf/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cxx/Debug/34k386oz/obj/armeabi-v7a\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003d/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/build/intermediates/cxx/Debug/34k386oz/obj/armeabi-v7a\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DANDROID_TOOLCHAIN\\u003dclang\",\n    \"-DANDROID_PLATFORM\\u003dandroid-16\",\n    \"-DANDROID_STL\\u003dc++_static\",\n    \"-DANDROID_CPP_FEATURES\\u003dexceptions rtti\",\n    \"-DANDROID_ARM_MODE\\u003darm\",\n    \"-DANDROID_ARM_NEON\\u003dTRUE\",\n    \"-DCMAKE_CXX_STANDARD\\u003d14\",\n    \"-DCMAKE_CXX_EXTENSIONS\\u003dOFF\",\n    \"-DJUCE_BUILD_CONFIGURATION\\u003dDEBUG\",\n    \"-DCMAKE_CXX_FLAGS_DEBUG\\u003d-O0\",\n    \"-DCMAKE_C_FLAGS_DEBUG\\u003d-O0\"\n  ]\n}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1899700825
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -139760968
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working C compiler: /Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2010895872
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1170037517
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 472602018
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working C compiler: /Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -474317286
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -528646195
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compiler ABI info",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 7121349
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 876058536
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -855556836
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compiler ABI info - done",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 580170852
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2060612760
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compile features",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1491400528
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1258720014
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -187906480
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2094499644
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 345308449
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compile features - done",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1179961113
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 938308824
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working CXX compiler: /Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1163246624
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 293874488
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1841475458
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working CXX compiler: /Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1288602630
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 371741261
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compiler ABI info",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 517043781
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1650534895
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1803328156
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compiler ABI info - done",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 738777060
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1570662632
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compile features",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -89478096
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1812800933
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1031943971
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1977668132
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -618360678
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 846720929
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compile features - done",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -200395879
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 555548869
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"The ASM compiler identification is Clang\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 636014400
+  },
+  {
+    "level_": 0,
+    "message_": "The ASM compiler identification is Clang",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2032907128
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found assembler: /Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1435062608
+  },
+  {
+    "level_": 0,
+    "message_": "Found assembler: /Users/mlf/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1592660952
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":950,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1799635717
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1382438984
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1155213195
+  },
+  {
+    "level_": 0,
+    "message_": "Configuring done",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1420152749
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1649237768
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"compute\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 336694941
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"CMake Error at CMakeLists.txt:33 (add_library):\\n  Cannot find source file:\\n\\n    ../../../../../../../../Applications/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h\\n\\n  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp\\n  .hxx .in .txx\\n\\n\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file_": "/Users/mlf/Desktop/Fall 21/Mobile Programming/MTEC-342-PS/FinalProject/Implementation/Sweet Touch/Builds/Android/app/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1438799939
+  }
+]
