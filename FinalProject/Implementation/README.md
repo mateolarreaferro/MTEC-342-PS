@@ -24,3 +24,6 @@ Sweet Touch is a mobile application inspired by Iannis Xenakis' dream of composi
 
 ### Contact
 Mateo Larrea - mlarrea@berklee.edu
+
+### Acknowledgements 
+Thanks to my teacher Akito van Troyer for guiding me through this process and to my good friend Pedro Sodre for introducing me to UPIC 2.
