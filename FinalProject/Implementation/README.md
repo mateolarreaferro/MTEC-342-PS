@@ -8,7 +8,7 @@
 
 
 
-##*Instructions*
+## *Instructions*
 
 1. Download the project from Github
 2. Download JUCE
