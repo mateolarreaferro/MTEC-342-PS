@@ -8,7 +8,7 @@
 
 
 
-##*Structure*
+## *Structure*
 
 The system has three different aspects: OSC Sender, Multitouch, and Synth. 
 
@@ -16,7 +16,7 @@ The system has three different aspects: OSC Sender, Multitouch, and Synth.
 2. Multitouch: Finger class that allows the user to use up to 10 fingers at the same time. All of their positions can be tracked. 
 3. Synth: It is a low frequency oscillator with a Low Pass Filter that allows the user to feel the touch without necessarily relying on the visual. 
 
-##*Inspiration*
+## *Inspiration*
 
 Iannis Xenakis [UPIC 2](https://www.youtube.com/watch?v=lNPWub-MNxg): The notion of physically interacting with the sound. Composing through gesture.
 
