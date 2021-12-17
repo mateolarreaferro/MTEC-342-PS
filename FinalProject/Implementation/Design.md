@@ -24,9 +24,6 @@ Doga Buse Cavdir's ["Felt Sound"](https://www.dogacavdir.com/feltsound): Using v
 
 Hexler's Touch OSC: Using touch to send OSC messages
 
-##*Implementation*
-
-I utilized the MultiTouch project as a template to implement the rest of the project. Mainly, the implementation was about tuning some of the existing parameters (in the synth class), implementing the OSC protocol, making sublte changes to the aesthetics, and creating simple functions to return the data needed (coordinates). 
 
 
 

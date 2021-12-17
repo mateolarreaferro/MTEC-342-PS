@@ -3,8 +3,6 @@
 
 int MainComponent::MAX_FINGERS = 10;
 
-// This array is not being used...
-//std::string oscAdressX[] = {"/juce/finger1X", "/juce/finger2X", "/juce/finger3X", "/juce/finger4X", "/juce/finger5X"};
 
 
 
@@ -134,12 +132,21 @@ void MainComponent::mouseDrag (const juce::MouseEvent& event)
 {
     if (fingers[event.source.getIndex()]->getIsTouching())
     {
+        
+        
+        juce::String oscAdressX[] = {"/juce/finger1X", "/juce/finger2X", "/juce/finger3X", "/juce/finger4X", "/juce/finger5X"};
+        juce::String oscAdressY[] = {"/juce/finger1Y", "/juce/finger2Y", "/juce/finger3Y", "/juce/finger4Y", "/juce/finger5Y"};
+        
+        
         fingers[event.source.getIndex()]->pushPoint (event.position, event.pressure);
         
         
-        // REGARDLESS OF THE FINGER, IT WILL GO ONLY TO THESE TWO
-        sender.send("/juce/fingerX", fingers[event.source.getIndex()]->getPositionX());
-        sender.send("/juce/fingerY", fingers[event.source.getIndex()]->getPositionY());
+        // Multitouch Sender!
+        for (int i = 0; i < 5; i++){
+        sender.send(oscAdressX[i], fingers[i]->getPositionX());
+        sender.send(oscAdressY[i], fingers[i]->getPositionY());
+        }
+        
        
         repaint();
         
